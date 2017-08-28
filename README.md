@@ -2,6 +2,7 @@
 
 >Yotabites/meetup repository hosts code/information for the meetups organized by Yotabites
 
+-----------------------------------------------------------------
 ##Content
 
 Following list maps  repository content with Meetup Dates
