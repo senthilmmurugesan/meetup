@@ -150,7 +150,7 @@ r.json()
 
 
 -----------------------------------------------------------------
-#Pyspark 
+##Pyspark 
 
 ### start pyspark Livy Session 
 ```
@@ -176,13 +176,14 @@ data = {
     """)
     }
 ```
+
 ```
 statements_url=host+'/sessions/29/statements'
 r = requests.post(statements_url, data=json.dumps(data), headers=headers,auth=HTTPKerberosAuth())
 pprint.pprint(r.json())
 ``` 
 -----------------------------------------------------------------
-###SparkR 
+##SparkR 
 
 **start SparkR Livy Session **
 
